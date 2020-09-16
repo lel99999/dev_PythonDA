@@ -13,6 +13,18 @@
 # subscription-manager repos --enable rhel-7-server-extras-rpms
 # subscription-manager repos --enable rhel-7-server-optional-rpms
 
+# For Python 3.6 - Ensure Python 3.6 role is installed
+- name: Install python pandas, numpy, and patplotlib
+  yum:
+    name: "{{ item }}"
+    state: present
+    disable_gpg_check: yes
+  with_items:
+    - rh-python36-numpy
+    - rh-python36-scipy
+    - rh-python36-python-tools
+    - rh-python-six
+
 - name: Install chrome dependencies/pre-requisites
   yum:
     name: "{{ item }}"
