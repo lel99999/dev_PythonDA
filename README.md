@@ -43,3 +43,17 @@ When reactivating later in a new shell:<br/>
 $ scl enable rh-python36 bash
 $ source myproject1/bin/activate
 ```
+
+##### Save or Freeze Requirements
+
+List all packages and save to requirements file<br/>
+```
+$pip list
+$pip freeze > /<path>/requirements.txt
+```
+
+This will create a list containing all the packages in current environment, and their versions.<br/>
+
+To recreate the same environment and install same packages:<br/>
+`$pip3 install -r /<path>/requirements.txt`<br/>
+
