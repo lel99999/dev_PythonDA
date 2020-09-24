@@ -44,6 +44,14 @@ $ scl enable rh-python36 bash
 $ source myproject1/bin/activate
 ```
 
+##### Install Python Packages
+
+- rh-python36-numpy
+- rh-python36-scipy
+- rh-python36-python-tools
+- rh-python-six
+
+
 ##### Save or Freeze Requirements
 
 List all packages and save to requirements file<br/>
