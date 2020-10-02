@@ -65,3 +65,5 @@ This will create a list containing all the packages in current environment, and 
 To recreate the same environment and install same packages:<br/>
 `$pip3 install -r /<path>/requirements.txt`<br/>
 
+##### Add Matplotlib and Scikit-learn Packages
+`$yum install python*scikit* python3-matplotlib*`<br/>
