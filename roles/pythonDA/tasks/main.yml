@@ -24,6 +24,9 @@
     - rh-python36-scipy
     - rh-python36-python-tools
     - rh-python-six
+    - python3-matplotlib
+    - python*scikit*
+# Review scikit-learn packages for RHEL 7    
 
 - name: Install chrome dependencies/pre-requisites
   yum:

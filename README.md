@@ -44,6 +44,14 @@ $ scl enable rh-python36 bash
 $ source myproject1/bin/activate
 ```
 
+##### Install Python Packages
+
+- rh-python36-numpy
+- rh-python36-scipy
+- rh-python36-python-tools
+- rh-python-six
+
+
 ##### Save or Freeze Requirements
 
 List all packages and save to requirements file<br/>
@@ -57,3 +65,5 @@ This will create a list containing all the packages in current environment, and 
 To recreate the same environment and install same packages:<br/>
 `$pip3 install -r /<path>/requirements.txt`<br/>
 
+##### Add Matplotlib and Scikit-learn Packages
+`$yum install python*scikit* python3-matplotlib*`<br/>
