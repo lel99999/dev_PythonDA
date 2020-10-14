@@ -70,6 +70,7 @@
 #   - epel7
     - python2RH7
     - python3RH7
+    - pythonDA
     - devtools7
 #   - odbc7
 #   - postgresql-client7
